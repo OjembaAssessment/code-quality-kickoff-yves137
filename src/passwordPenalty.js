@@ -16,6 +16,7 @@ export default function penaltyPoints(password = "") {
   const regex = new RegExp(/(.+?)\1{1,}/, "g");
   const resultList = password.match(regex);
 
+  // determine penalty points
   let maxLength =
     resultList === null
       ? 0
