@@ -1,1 +1,1 @@
-const removeDuplicates= (inputArray) => [...(new Set(inputArray))];
+const removeDuplicates= (inputArray) => [...new Set(inputArray)];
